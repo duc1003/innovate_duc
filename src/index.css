@@ -129,11 +129,11 @@ All colors MUST be HSL.
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border;
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply background text-foreground font-sans;
   }
 }
 
@@ -212,12 +212,3 @@ All colors MUST be HSL.
 
 /* ---break---
 */
-
-@layer base {
-  * {
-    @apply border-border;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
-}
